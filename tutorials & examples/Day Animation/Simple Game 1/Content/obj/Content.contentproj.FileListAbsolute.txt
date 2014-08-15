@@ -1,0 +1,2 @@
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\Content\obj\x86\Debug\ResolveAssemblyReference.cache

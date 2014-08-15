@@ -1,0 +1,638 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{78084720-61C3-4995-B77B-A90FD2650047}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chimera</RootNamespace>
+    <AssemblyName>Chimera Engine</AssemblyName>
+    <XnaFrameworkVersion>v2.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaCrossPlatformGroupID>44676856-76de-4342-8f12-58becc0d352a</XnaCrossPlatformGroupID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <DocumentationFile>bin\x86\Debug\Chimera Engine.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <DocumentationFile>bin\x86\Release\Chimera Engine.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Engine\Audio\AudioManager.cs">
+      <Name>AudioManager</Name>
+    </Compile>
+    <Compile Include="Engine\Audio\Fmod\fmod.cs">
+      <Name>fmod</Name>
+    </Compile>
+    <Compile Include="Engine\Audio\Fmod\fmod_dsp.cs">
+      <Name>fmod_dsp</Name>
+    </Compile>
+    <Compile Include="Engine\Audio\Fmod\fmod_errors.cs">
+      <Name>fmod_errors</Name>
+    </Compile>
+    <Compile Include="Engine\Audio\SoundManager.cs">
+      <Name>SoundManager</Name>
+    </Compile>
+    <Compile Include="Engine\Audio\Sound.cs">
+      <Name>Sound</Name>
+    </Compile>
+    <Compile Include="Engine\Data\LinkedList.cs">
+      <Name>LinkedList</Name>
+    </Compile>
+    <Compile Include="Engine\Data\Sorting.cs">
+      <Name>Sorting</Name>
+    </Compile>
+    <Compile Include="Engine\Engine.cs" />
+    <Compile Include="Engine\Game Feature\SimpleStorageManager.cs">
+      <Name>SaveLoadManager</Name>
+    </Compile>
+    <Compile Include="Engine\Game Feature\SceneManager.cs">
+      <Name>SceneManager</Name>
+    </Compile>
+    <Compile Include="Engine\Game Feature\Score.cs">
+      <Name>Score</Name>
+    </Compile>
+    <Compile Include="Engine\Game Feature\StorageManager.cs" />
+    <Compile Include="Engine\Graphics\Animation.cs">
+      <Name>Animation</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\BackGround.cs">
+      <Name>BackGround</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\ComplexImage.cs">
+      <Name>ComplexImage</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\ComplexSprite.cs">
+      <Name>ComplexSprite</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Breaking\Breaking.cs">
+      <Name>Breaking</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Breaking\BreakingLine.cs">
+      <Name>BreakingLine</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Breaking\BreakingSquare.cs">
+      <Name>BreakingSquare</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Coloring.cs">
+      <Name>Coloring</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\EarthQuake\EarthQuakeObject.cs">
+      <Name>earthquake</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\EarthQuake\ScreenEarthQuake.cs" />
+    <Compile Include="Engine\Graphics\Effects\Eraser.cs">
+      <Name>Eraser</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\MotionBlur.cs">
+      <Name>MotionBlur</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\FourScreens.cs">
+      <Name>FourScreens</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Hiding\HideLine.cs">
+      <Name>HideLine</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Hiding\Hiding.cs">
+      <Name>Hiding</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Hiding\HidingSquare.cs">
+      <Name>HidingSquare</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\PartialFading\PartialFading.cs">
+      <Name>PartialFading</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\PartialFading\PartialFadingLine.cs">
+      <Name>PartialFadingLine</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\PartialFading\PartialFadingSquare.cs">
+      <Name>PartialFadingSquare</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Effects\BaseEffect.cs">
+      <Name>BaseEffect</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Effects\Explosion.cs">
+      <Name>Explosion</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Effects\Fire.cs">
+      <Name>Fire</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Effects\Warp.cs">
+      <Name>Warp</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Effects\Plasma.cs">
+      <Name>Plasma</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Effects\Snow.cs">
+      <Name>Snow</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Controllers\Controller.cs">
+      <Name>Controller</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Controllers\ExplosionController.cs">
+      <Name>ExplosionController</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Controllers\GamepadController.cs">
+      <Name>GamepadController</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Controllers\MouseController.cs">
+      <Name>MouseController</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Controllers\TimedTriggerController.cs">
+      <Name>TimedTriggerController</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Controllers\TrailController.cs">
+      <Name>TrailController</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Emitters\CircleEmitter.cs">
+      <Name>CircleEmitter</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Emitters\Emitter.cs">
+      <Name>Emitter</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Emitters\LineEmitter.cs">
+      <Name>LineEmitter</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Emitters\SpiralEmitter.cs">
+      <Name>SpiralEmitter</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Emitters\SprayEmitter.cs">
+      <Name>SprayEmitter</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\ImageStrip.cs">
+      <Name>ImageStrip</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\Color\ColorModifier.cs">
+      <Name>ColorModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\Color\RandomColorModifier.cs">
+      <Name>RandomColorModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\General\AtmosphereModifier.cs">
+      <Name>AtmosphereModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\General\GravityModifier.cs">
+      <Name>GravityModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\General\RotationModifier.cs">
+      <Name>RotationModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\General\SineForceModifier.cs">
+      <Name>SineForceModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\General\WindowConstraintModifier.cs">
+      <Name>WindowConstraintModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\Modifier.cs">
+      <Name>Modifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\Opacity\OpacityModifier.cs">
+      <Name>OpacityModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\Opacity\RandomOpacityModifier.cs">
+      <Name>RandomOpacityModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\Scale\RandomScaleModifier.cs">
+      <Name>RandomScaleModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Modifiers\Scale\ScaleModifier.cs">
+      <Name>ScaleModifier</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\Particle.cs">
+      <Name>Particle</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\ParticleSystem.cs">
+      <Name>ParticleSystem</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Particles\Engine\UserDataCollection.cs">
+      <Name>UserDataCollection</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\RecViewPort.cs">
+      <Name>RecViewPort</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Fading.cs">
+      <Name>Fading</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Pixelate.cs">
+      <Name>Pixelate</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Scaling.cs">
+      <Name>Scaling</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\Scroller.cs">
+      <Name>Scroller</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\SlowMotion.cs" />
+    <Compile Include="Engine\Graphics\Effects\TextEffects\Coloring.cs">
+      <Name>Coloring</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\TextEffects\Earthquake.cs">
+      <Name>Eearthquake</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\TextEffects\Fading.cs">
+      <Name>Fading</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\TextEffects\Scroller.cs">
+      <Name>Scroller</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Effects\TextEffects\Scaling.cs">
+      <Name>Scaling</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Enum\Enum.cs">
+      <Name>Enum</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Image.cs">
+      <Name>Image</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\ComplexAnimation.cs">
+      <Name>ComplexAnimation</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Map\ImageMap.cs">
+      <Name>Map</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Map\ByteMap.cs">
+      <Name>SimpleMap</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Map\Map.cs" />
+    <Compile Include="Engine\Graphics\Map\ScreenedMap.cs">
+      <Name>SreenedMap</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Screen.cs" />
+    <Compile Include="Engine\Graphics\Sprite.cs">
+      <Name>Sprite</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Text.cs">
+      <Name>Text</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Title.cs">
+      <Name>Title</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Video.cs">
+      <Name>Video</Name>
+    </Compile>
+    <Compile Include="Engine\GUI\InputEventSystem\InputEventSystem.cs" />
+    <Compile Include="Engine\GUI\MainWindow.cs">
+      <Name>MainWindow</Name>
+    </Compile>
+    <Compile Include="Engine\GUI\WindowSystemSkinPipeline\SkinImporter.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\Bar.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\Box.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\CheckBox.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\ComboBox.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\Dialog.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\DisplaySettingsDialog.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\GUIManager.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\Icon.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\Image.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\ImageButton.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\Label.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\ListBox.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\MenuBar.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\MenuItem.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\MessageBox.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\MouseCursor.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\MovableArea.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\PopUpMenu.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\RadioButton.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\RadioGroup.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\ResizableArea.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\ScrollBar.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\Skin.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\SkinnedComponent.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\TextBox.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\TextButton.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\UIComponent.cs" />
+    <Compile Include="Engine\GUI\WindowSystem\Window.cs" />
+    <Compile Include="Engine\Helpers\Capabilities.cs" />
+    <Compile Include="Engine\Helpers\Delegate.cs">
+      <Name>Delegate</Name>
+    </Compile>
+    <Compile Include="Engine\Helpers\FPSCounter.cs" />
+    <Compile Include="Engine\Helpers\Interface.cs" />
+    <Compile Include="Engine\Helpers\Log.cs">
+      <Name>Log</Name>
+    </Compile>
+    <Compile Include="Engine\Helpers\Options.cs">
+      <Name>Options</Name>
+    </Compile>
+    <Compile Include="Engine\Helpers\PathManager.cs" />
+    <Compile Include="Engine\Helpers\Random.cs">
+      <Name>Random</Name>
+    </Compile>
+    <Compile Include="Engine\Helpers\ScreenShoot.cs" />
+    <Compile Include="Engine\Helpers\TextureManager.cs" />
+    <Compile Include="Engine\Input\GamePad.cs">
+      <Name>GamePad</Name>
+    </Compile>
+    <Compile Include="Engine\Input\Joystick.cs">
+      <Name>Joystick</Name>
+    </Compile>
+    <Compile Include="Engine\Input\KeyBoard.cs">
+      <Name>KeyBoard</Name>
+    </Compile>
+    <Compile Include="Engine\Graphics\Mouse.cs">
+      <Name>Mouse</Name>
+    </Compile>
+    <Compile Include="Engine\Input\WebCam.cs">
+      <Name>WebCam</Name>
+    </Compile>
+    <Compile Include="Engine\Input\Mouse.cs">
+      <Name>Mouse</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\BoundingBox.cs">
+      <Name>BoundingBox</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\BoundingSphere.cs">
+      <Name>BoundingSphere</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Effects.cs">
+      <Name>Effects</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Components\FarseerPhysicsComponent.cs">
+      <Name>FarseerPhysicsComponent</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Components\KeyboardInputComponent.cs">
+      <Name>KeyboardInputComponent</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Components\MouseInputComponent.cs">
+      <Name>MouseInputComponent</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Convert.cs">
+      <Name>Convert</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Entities\CircleEntity.cs">
+      <Name>CircleEntity</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Entities\EntityManager.cs">
+      <Name>EntityManager</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Entities\IEntity.cs">
+      <Name>IEntity</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Entities\IEntityView.cs">
+      <Name>IEntityView</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Entities\PointEntity.cs">
+      <Name>PointEntity</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Entities\PolygonEntity.cs">
+      <Name>PolygonEntity</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Entities\PolygonEntityBase.cs">
+      <Name>PolygonEntityBase</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Entities\RectangleEntity.cs">
+      <Name>RectangleEntity</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Entities\RigidBodyDiagnosticEntityView.cs">
+      <Name>RigidBodyDiagnosticEntityView</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Entities\ScreenBorderEntity.cs">
+      <Name>ScreenBorderEntity</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\FarseerGame.cs">
+      <Name>FarseerGame</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Scene\ILoadable.cs">
+      <Name>ILoadable</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Scene\IRenderable.cs">
+      <Name>IRenderable</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Scene\IUpdateable.cs">
+      <Name>IUpdateable</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Scene\SceneManager.cs">
+      <Name>SceneManager</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Scene\SceneObject.cs">
+      <Name>SceneObject</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Sprites\Sprite.cs">
+      <Name>Sprite</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Sprites\SpriteEntityView.cs">
+      <Name>SpriteEntityView</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Sprites\SpriteGroup.cs">
+      <Name>SpriteGroup</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAGame\Utilities\LineDrawer.cs">
+      <Name>LineDrawer</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\AABB.cs">
+      <Name>AABB</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\CircleGeometry.cs">
+      <Name>CircleGeometry</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\Contact.cs">
+      <Name>Contact</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\ContactEventArgs.cs">
+      <Name>ContactEventArgs</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\ContactId.cs">
+      <Name>ContactId</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\ContactList.cs">
+      <Name>ContactList</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\Feature.cs">
+      <Name>Feature</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\Geometry.cs">
+      <Name>Geometry</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\Grid.cs">
+      <Name>Grid</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\GridCell.cs">
+      <Name>GridCell</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\GridPoint.cs">
+      <Name>GridPoint</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\ICollideable.cs">
+      <Name>ICollideable</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\PointGeometry.cs">
+      <Name>PointGeometry</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\PolygonGeometry.cs">
+      <Name>PolygonGeometry</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\RectangleGeometry.cs">
+      <Name>RectangleGeometry</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Collisions\Vertices.cs">
+      <Name>Vertices</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\AngleJoint.cs">
+      <Name>AngleJoint</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\AngularSpring.cs">
+      <Name>AngularSpring</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\Arbiter.cs">
+      <Name>Arbiter</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\ArbiterList.cs">
+      <Name>ArbiterList</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\Body.cs">
+      <Name>Body</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\BodyList.cs">
+      <Name>BodyList</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\CircleRigidBody.cs">
+      <Name>CircleRigidBody</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\CollisionPrecisionType.cs">
+      <Name>CollisionPrecisionType</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\FixedSpring.cs">
+      <Name>FixedSpring</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\Joint.cs">
+      <Name>Joint</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\JointList.cs">
+      <Name>JointList</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\LinearSpring.cs">
+      <Name>LinearSpring</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\PointRigidBody.cs">
+      <Name>PointRigidBody</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\PolygonRigidBody.cs">
+      <Name>PolygonRigidBody</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\RectangleRigidBody.cs">
+      <Name>RectangleRigidBody</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\RevoluteJoint.cs">
+      <Name>RevoluteJoint</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\RigidBody.cs">
+      <Name>RigidBody</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\RigidBodyList.cs">
+      <Name>RigidBodyList</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\Spring.cs">
+      <Name>Spring</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Dynamics\SpringList.cs">
+      <Name>SpringList</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\IIsDisposable.cs">
+      <Name>IIsDisposable</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\Mathematics\Calculator.cs">
+      <Name>Calculator</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer\FarseerXNAPhysics\PhysicsSimulator.cs">
+      <Name>PhysicsSimulator</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Farseer.cs">
+      <Name>Farseer</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Pixel Perfect.cs">
+      <Name>Pixel Perfect</Name>
+    </Compile>
+    <Compile Include="Engine\Physics\Geometry.cs">
+      <Name>Geometry</Name>
+    </Compile>
+    <Compile Include="Engine\Helpers\BasicFunctions.cs">
+      <Name>BasicFunctions</Name>
+    </Compile>
+    <Compile Include="Engine\Helpers\PeriodicFunction.cs">
+      <Name>FctExecuter</Name>
+    </Compile>
+    <Compile Include="Engine\Helpers\DrawOptimizer.cs">
+      <Name>DrawOptimizer</Name>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <Name>AssemblyInfo</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Engine\Physics\Farseer\Licence.txt">
+      <Name>Licence</Name>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content.contentproj">
+      <Project>{41da7359-4ec6-42ad-81fd-3b4688f09f65}</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content\Content.contentproj">
+      <Project>35c395c3-8a1e-4370-876f-20bf541c53b7</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Engine\IA\" />
+    <Folder Include="Engine\NetWork\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v2.0\Microsoft.Xna.GameStudio.Common.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v2.0\Microsoft.Xna.GameStudio.NestedContent.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

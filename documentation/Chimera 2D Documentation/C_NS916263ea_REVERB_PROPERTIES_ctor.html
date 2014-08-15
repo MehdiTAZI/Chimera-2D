@@ -1,0 +1,145 @@
+<html dir="LTR" xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:ndoc="urn:ndoc-preprocess">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <title>REVERB_PROPERTIES Constructor</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css"> </link>
+    <link rel="stylesheet" type="text/css" href="user.css"> </link>
+    <script type="text/javascript" src="ndoc.js"> </script>
+  </head>
+  <body style="display: none;">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <input type="hidden" id="hiddenScrollOffset" />
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="drpdown.gif" />
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="drpdown_orange.gif" />
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="collapse.gif" />
+    <img id="expandImage" style="display:none; height:0; width:0;" src="exp.gif" />
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="collall.gif" />
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="expall.gif" />
+    <img id="copyImage" style="display:none; height:0; width:0;" src="copycode.gif" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="copycodeHighlight.gif" />
+    <div id="header">
+      <table width="100%" id="topTable">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">Chimera Games Engine Library Documentation</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">REVERB_PROPERTIES Constructor</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td>
+            <a id="seeAlsoSectionLink" href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a>
+            <a id="exampleSectionLink" href="#codeExampleToggle" onclick="OpenSection(codeExampleToggle)">Example</a>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage)" tabindex="0">
+              <img ID="toggleAllImage" class="toggleAll" src="collall.gif" />
+              <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">
+							Collapse All
+						</label>
+              <label id="expandAllLabel" for="toggleAllImage" style="display: none;">
+							Expand All
+						</label>
+            </span>
+            <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onfocusin="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" onfocusout="languageFilterImage.src=dropDownImage.src;" tabindex="0">
+              <img id="languageFilterImage" src="drpdown.gif" />
+              <label id="showAllLabel" for="languageFilterImage" style="display: none;">
+				Language Filter: All
+			</label>
+              <label id="multipleLabel" for="languageFilterImage" style="display: none;">
+				Language Filter: Multiple
+			</label>
+              <label id="vbLabel" for="languageFilterImage" style="display: none;">
+				Language Filter: Visual Basic
+			</label>
+              <label id="csLabel" for="languageFilterImage" style="display: none;">
+				Language Filter: C#
+			</label>
+              <label id="cLabel" for="languageFilterImage" style="display: none;">
+				Language Filter: C++
+			</label>
+              <label id="jsharpLabel" for="languageFilterImage" style="display: none;">
+				Language Filter: J#
+			</label>
+              <label id="jsLabel" for="languageFilterImage" style="display: none;">
+				Language Filter: JScript
+			</label>
+            </span>
+          </td>
+        </tr>
+      </table>
+      <span style="display:none" id="languageSpan">
+        <input id="vbDeclarationCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbDeclarationCheckbox">
+				Visual Basic (Declaration)
+			</label>
+        <br />
+        <input id="vbUsageCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="vbUsageCheckbox">
+				Visual Basic (Usage)
+			</label>
+        <br />
+        <input id="csCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="csCheckbox">
+				C#
+			</label>
+        <br />
+        <input id="cCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="cCheckbox">
+				C++
+			</label>
+        <br />
+        <input id="jsharpCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsharpCheckbox">
+				J#
+			</label>
+        <br />
+        <input id="jsCheckbox" type="checkbox" name="languageFilter" onClick="SetLanguage(this)" />
+        <label class="languageFilter" for="jsCheckbox">
+				JScript
+			</label>
+        <br />
+      </span>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" />
+        <p class="topicstatus"> [This is preliminary documentation and subject to change.]</p>
+        <p />
+        <br />
+        <b>Namespace: </b>
+        <a href="N_NS916263ea.html">Chimera.Audio.FMOD</a>
+        <br />
+        <b>Assembly: </b>Chimera (in Chimera.dll)
+		<br /><h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="collapse.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection"><div id="syntaxCodeBlocks" class="code"><span codeLanguage="VisualBasicDeclaration"><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left">Visual Basic (Declaration)</th></tr><tr><td class="syntax">Public Sub New( _ <br />   ByVal instance As <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">Integer</a>,  _ <br />   ByVal environment As <a href="http://msdn2.microsoft.com/en-us/library/System.UInt32" target="_top">UInt32</a>,  _ <br />   ByVal envSize As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal envDiffusion As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal room As <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">Integer</a>,  _ <br />   ByVal roomHF As <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">Integer</a>,  _ <br />   ByVal roomLF As <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">Integer</a>,  _ <br />   ByVal decayTime As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal decayHFRatio As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal decayLFRatio As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal reflections As <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">Integer</a>,  _ <br />   ByVal reflectionsDelay As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal reflectionsPanx As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal reflectionsPany As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal reflectionsPanz As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal reverb As <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">Integer</a>,  _ <br />   ByVal reverbDelay As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal reverbPanx As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal reverbPany As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal reverbPanz As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal echoTime As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal echoDepth As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal modulationTime As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal modulationDepth As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal airAbsorptionHF As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal hfReference As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal lfReference As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal roomRolloffFactor As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal diffusion As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal density As <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">Single</a>,  _ <br />   ByVal flags As <a href="http://msdn2.microsoft.com/en-us/library/System.UInt32" target="_top">UInt32</a> _ <br />)</td></tr></table></span><span codeLanguage="CSharp"><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left">C#</th></tr><tr><td class="syntax">public REVERB_PROPERTIES(<br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> instance, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.UInt32" target="_top">uint</a> environment, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> envSize, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> envDiffusion, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> room, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> roomHF, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> roomLF, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> decayTime, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> decayHFRatio, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> decayLFRatio, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> reflections, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsDelay, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsPanx, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsPany, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsPanz, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> reverb, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbDelay, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbPanx, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbPany, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbPanz, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> echoTime, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> echoDepth, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> modulationTime, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> modulationDepth, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> airAbsorptionHF, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> hfReference, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> lfReference, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> roomRolloffFactor, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> diffusion, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> density, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.UInt32" target="_top">uint</a> flags<br />)</td></tr></table></span><span codeLanguage="ManagedCPlusPlus"><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left">C++</th></tr><tr><td class="syntax">public:<br /> REVERB_PROPERTIES(<br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> instance, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.UInt32" target="_top">unsigned int</a> environment, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> envSize, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> envDiffusion, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> room, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> roomHF, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> roomLF, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> decayTime, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> decayHFRatio, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> decayLFRatio, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> reflections, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsDelay, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsPanx, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsPany, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsPanz, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> reverb, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbDelay, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbPanx, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbPany, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbPanz, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> echoTime, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> echoDepth, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> modulationTime, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> modulationDepth, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> airAbsorptionHF, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> hfReference, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> lfReference, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> roomRolloffFactor, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> diffusion, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> density, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.UInt32" target="_top">unsigned int</a> flags<br />) sealed </td></tr></table></span><span codeLanguage="JSharp"><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left">J#</th></tr><tr><td class="syntax">public REVERB_PROPERTIES(<br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> instance, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.UInt32" target="_top">uint</a> environment, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> envSize, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> envDiffusion, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> room, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> roomHF, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> roomLF, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> decayTime, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> decayHFRatio, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> decayLFRatio, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> reflections, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsDelay, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsPanx, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsPany, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reflectionsPanz, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a> reverb, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbDelay, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbPanx, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbPany, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> reverbPanz, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> echoTime, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> echoDepth, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> modulationTime, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> modulationDepth, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> airAbsorptionHF, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> hfReference, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> lfReference, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> roomRolloffFactor, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> diffusion, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a> density, <br />   <a href="http://msdn2.microsoft.com/en-us/library/System.UInt32" target="_top">uint</a> flags<br />)</td></tr></table></span><span codeLanguage="JScript"><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left">JScript</th></tr><tr><td class="syntax">public function REVERB_PROPERTIES(<br />   instance : <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a>, <br />   environment : <a href="http://msdn2.microsoft.com/en-us/library/System.UInt32" target="_top">UInt32</a>, <br />   envSize : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   envDiffusion : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   room : <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a>, <br />   roomHF : <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a>, <br />   roomLF : <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a>, <br />   decayTime : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   decayHFRatio : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   decayLFRatio : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   reflections : <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a>, <br />   reflectionsDelay : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   reflectionsPanx : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   reflectionsPany : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   reflectionsPanz : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   reverb : <a href="http://msdn2.microsoft.com/en-us/library/System.Int32" target="_top">int</a>, <br />   reverbDelay : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   reverbPanx : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   reverbPany : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   reverbPanz : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   echoTime : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   echoDepth : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   modulationTime : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   modulationDepth : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   airAbsorptionHF : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   hfReference : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   lfReference : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   roomRolloffFactor : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   diffusion : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   density : <a href="http://msdn2.microsoft.com/en-us/library/System.Single" target="_top">float</a>, <br />   flags : <a href="http://msdn2.microsoft.com/en-us/library/System.UInt32" target="_top">UInt32</a><br />)</td></tr></table></span></div></div><h1 class="heading"><span style="cursor:default;" onclick="ExpandCollapse(seeAlsoToggle)" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="collapse.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection"><a href="T_NS916263ea_REVERB_PROPERTIES.html">REVERB_PROPERTIES Class</a><br /><a href="N_NS916263ea.html">Chimera.Audio.FMOD Namespace</a></div></div>
+      <DIV CLASS="footer">
+        <p>
+          <center>
+            <font color="red">
+              <i>
+                Syntax based on .NET Framework version 2.0.<br />
+                Documentation version 0.1.
+              </i>
+            </font>
+          </center>
+        </p>
+      </DIV>
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="mailto:mehdi@chimera2D.com?subject=Chimera%20Games%20Engine%20Library%20Documentation%200.1%20Documentation%20Feedback:%20REVERB_PROPERTIES%20Constructor">Send comments on this topic.</a>
+        </p>
+        <p>
+          <a href="www.Chimera2D.com">© Copyright 2007-2008 Tazi Mehdi</a>
+        </p>
+        <p />
+      </div><!--[if gte IE 5]><tool:tip element="languageFilterToolTip" avoidmouse="false" /><![endif]--></div>
+  </body>
+</html>

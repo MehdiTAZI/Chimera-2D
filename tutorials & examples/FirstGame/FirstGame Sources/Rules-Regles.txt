@@ -1,0 +1,18 @@
+[Francais] [French]
+
++Bute: Manger Tout les Pierre qui on la meme couleur que l'ecran.
+
+
+-chaque Bonne Pierre mangé augmente votre score de 5 Point + Le Nombre de vie * 10
+-chaque mauvaise Pierre reduit votre score de 7 point
+-une fois que vous perdé vous recommenceé une nouvelle partie
+avec un  score equal a votre ancien score /4
+
+[English] [Anglais]
+
++Goal : Eat All The Gems that have the same color like screen.
+
+
+-Each Good Gem Eaten Increase Your Score by 5 Point + Number Of Life * 10
+-Each Bad Gem Eaten Decrease You Score By 7 Point
+-When You Lose , A new Party Begain with a score equal to you old score / 4

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FirstGame">
+</Property><Property Name="Solution File" Value="H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\FirstGame.sln">
+</Property><Property Name="User Options File" Value="H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\FirstGame.suo">
+</Property><Property Name="Date" Value="dimanche 5 avril 2009">
+</Property><Property Name="Time" Value="01:36">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FirstGame.sln" Description="File successfully backed up as H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\Backup\FirstGame.sln">
+</Event><Event ErrorLevel="0" Project="" Source="FirstGame.suo" Description="File successfully backed up as H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\Backup\FirstGame.suo">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="FirstGame.csproj" Description="Upgraded XNA Game Studio nested content projects.">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="FirstGame.csproj" Description="Upgraded XNA Game Studio project.">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="FirstGame.csproj" Description="Project file successfully backed up as H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\Backup\FirstGame.csproj">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="Intro.cs" Description="File successfully backed up as H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\Backup\Intro.cs">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="Jeu.cs" Description="File successfully backed up as H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\Backup\Jeu.cs">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="Program.cs" Description="File successfully backed up as H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="Main.cs" Description="File successfully backed up as H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\Backup\Main.cs">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="Game.ico" Description="File successfully backed up as H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\Backup\Game.ico">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="GameThumbnail.png" Description="File successfully backed up as H:\My Data\Programmation\Projet\Chimera Engine\Chimera 2D\Tutorial\FirstGame\FirstGame Sources\Backup\GameThumbnail.png">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="FirstGame.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FirstGame" Source="FirstGame.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FirstGame.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FirstGame.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="FirstGame.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="FirstGame" Source="FirstGame.csproj" Description="Upgraded XNA Framework References.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Content.contentproj" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Font.spritefont" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Gem.png" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Heart.png" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Intro.wav" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Logo.jpg" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Lose.wav" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Music.mp3" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Star.PNG" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Thumbs.db" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Win.wav" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event></UpgradeLog>

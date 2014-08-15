@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C# Express 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteAndAnimation", "SpriteAndAnimation\SpriteAndAnimation.csproj", "{0862DD5A-5053-474C-A6E7-867BDBB86536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0862DD5A-5053-474C-A6E7-867BDBB86536}.Debug|x86.ActiveCfg = Debug|x86
+		{0862DD5A-5053-474C-A6E7-867BDBB86536}.Debug|x86.Build.0 = Debug|x86
+		{0862DD5A-5053-474C-A6E7-867BDBB86536}.Release|x86.ActiveCfg = Release|x86
+		{0862DD5A-5053-474C-A6E7-867BDBB86536}.Release|x86.Build.0 = Release|x86
+		{81BA16E8-97AD-4AC3-B949-BAF843C9361A}.Debug|x86.ActiveCfg = Debug|x86
+		{81BA16E8-97AD-4AC3-B949-BAF843C9361A}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

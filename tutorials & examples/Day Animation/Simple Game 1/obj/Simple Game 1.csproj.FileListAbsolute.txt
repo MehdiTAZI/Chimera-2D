@@ -1,0 +1,28 @@
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\obj\x86\Debug\Simple_Game_1.obj.x86.Debug.Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\bin\x86\Debug\Content\sky.xnb
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\bin\x86\Debug\Content\cloud.xnb
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\bin\x86\Debug\Content\sol.xnb
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\bin\x86\Debug\Content\sun.xnb
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\bin\x86\Debug\Content\Logo.xnb
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\bin\x86\Debug\Simple Game 1.exe
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\bin\x86\Debug\Simple Game 1.pdb
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\bin\x86\Debug\Chimera.dll
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\bin\x86\Debug\Chimera.xml
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\obj\x86\Debug\Simple Game 1.exe
+C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\Simple Game 1\Simple Game 1\obj\x86\Debug\Simple Game 1.pdb
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\bin\x86\Debug\Content\sky.xnb
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\bin\x86\Debug\Content\cloud.xnb
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\bin\x86\Debug\Content\sol.xnb
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\bin\x86\Debug\Content\sun.xnb
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\bin\x86\Debug\Content\logo.xnb
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\bin\x86\Debug\Simple Game 1.exe
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\bin\x86\Debug\Simple Game 1.pdb
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\bin\x86\Debug\Chimera.dll
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\bin\x86\Debug\Chimera.xml
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\obj\x86\Debug\Simple_Game_1.obj.x86.Debug.Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\obj\x86\Debug\Simple Game 1.exe
+C:\Documents and Settings\Mehdi Tazi\Bureau\Simple Game 1\Simple Game 1\obj\x86\Debug\Simple Game 1.pdb

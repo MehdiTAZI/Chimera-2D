@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>boy.png</Source>
+      <Name>boy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SimpleImage\SimpleImage\bin\x86\Debug\Content\boy.xnb</Output>
+      <Time>2007-05-13T20:30:42+00:00</Time>
+    </Item>
+    <Item>
+      <Source>girl.png</Source>
+      <Name>girl</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SimpleImage\SimpleImage\bin\x86\Debug\Content\girl.xnb</Output>
+      <Time>2007-05-13T20:29:40+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Light.png</Source>
+      <Name>Light</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SimpleImage\SimpleImage\bin\x86\Debug\Content\Light.xnb</Output>
+      <Time>2007-05-29T23:21:50+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Block.png</Source>
+      <Name>Block</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SimpleImage\SimpleImage\bin\x86\Debug\Content\Block.xnb</Output>
+      <Time>2007-05-12T16:48:32+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <RootDirectory>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SimpleImage\SimpleImage\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SimpleImage\SimpleImage\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SimpleImage\SimpleImage\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SimpleImage\SimpleImage\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2007-11-28T13:08:00+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2007-11-28T13:08:42+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2007-11-28T13:08:30+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2007-11-28T13:07:44+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\2.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2008-04-07T03:28:59.796875+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

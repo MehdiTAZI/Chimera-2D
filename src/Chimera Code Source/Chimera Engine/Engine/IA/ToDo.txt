@@ -1,0 +1,4 @@
++ IA(A*,Killing,Mutation,Select Gene…,Vie groupe,Fourmille)
+ia fight plane
+mOUVEMENT : RANDOMIZE , ESPION , 
+LIVRE

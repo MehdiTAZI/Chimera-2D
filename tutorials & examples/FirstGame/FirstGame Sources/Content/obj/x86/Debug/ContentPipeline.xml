@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Gem.png</Source>
+      <Name>Gem</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\bin\x86\Debug\Content\Gem.xnb</Output>
+      <Time>2008-05-06T12:13:02.171875+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Heart.png</Source>
+      <Name>Heart</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\bin\x86\Debug\Content\Heart.xnb</Output>
+      <Time>2008-05-05T21:22:48.34375+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Logo.jpg</Source>
+      <Name>Logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\bin\x86\Debug\Content\Logo.xnb</Output>
+      <Time>2008-05-05T21:22:48.359375+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Star.png</Source>
+      <Name>Star</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\bin\x86\Debug\Content\Star.xnb</Output>
+      <Time>2008-05-06T11:53:36.53125+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Font.spritefont</Source>
+      <Name>Font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\bin\x86\Debug\Content\Font.xnb</Output>
+      <Time>2008-05-06T00:46:23.5625+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <RootDirectory>C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2007-11-28T12:08:00+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2007-11-28T12:08:42+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2007-11-28T12:08:30+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2007-11-28T12:07:44+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\2.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2008-05-02T02:04:19.703125+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

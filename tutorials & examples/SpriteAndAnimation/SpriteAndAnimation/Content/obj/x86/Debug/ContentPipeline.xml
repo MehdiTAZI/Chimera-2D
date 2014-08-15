@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Animation.png</Source>
+      <Name>Animation</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SpriteAndAnimation\SpriteAndAnimation\bin\x86\Debug\Content\Animation.xnb</Output>
+      <Time>2008-04-21T21:33:37.4375+00:00</Time>
+    </Item>
+    <Item>
+      <Source>PLAYER.png</Source>
+      <Name>PLAYER</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SpriteAndAnimation\SpriteAndAnimation\bin\x86\Debug\Content\PLAYER.xnb</Output>
+      <Time>2008-04-21T23:13:52.125+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Floor.png</Source>
+      <Name>Floor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SpriteAndAnimation\SpriteAndAnimation\bin\x86\Debug\Content\Floor.xnb</Output>
+      <Time>2008-04-21T23:42:54.46875+00:00</Time>
+    </Item>
+    <Item>
+      <Source>BG.jpg</Source>
+      <Name>BG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SpriteAndAnimation\SpriteAndAnimation\bin\x86\Debug\Content\BG.xnb</Output>
+      <Time>2008-04-21T23:47:25.609375+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <RootDirectory>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SpriteAndAnimation\SpriteAndAnimation\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SpriteAndAnimation\SpriteAndAnimation\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SpriteAndAnimation\SpriteAndAnimation\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Documents and Settings\Mehdi Tazi\Mes documents\Visual Studio 2005\Projects\SpriteAndAnimation\SpriteAndAnimation\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2007-11-28T13:08:00+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2007-11-28T13:08:42+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2007-11-28T13:08:30+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2007-11-28T13:07:44+00:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\2.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2008-04-07T03:28:59.796875+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

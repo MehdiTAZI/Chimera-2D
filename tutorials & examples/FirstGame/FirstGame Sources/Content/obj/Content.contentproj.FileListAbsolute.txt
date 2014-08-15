@@ -1,0 +1,2 @@
+C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mehdi Tazi\Bureau\FirstGame\FirstGame\Content\obj\x86\Release\ResolveAssemblyReference.cache

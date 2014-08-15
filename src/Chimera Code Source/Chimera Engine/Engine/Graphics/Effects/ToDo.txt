@@ -1,0 +1,34 @@
+graphics.GraphicsDevice.RenderState.SourceBlend = Blend.One;
+graphics.GraphicsDevice.RenderState.DestinationBlend = Blend.One;
+
+
+image effect des effet precompilé comme ceux du haut
+
+des effet autogenerer et stocker dans un dictionaire ( dico string , struct parameter)
+
+
+Color pixelvalue = pixeldata[(y * width) + x];
+
+lighing
+bumpmapping
+FOG
+WATER
+PLUIE
+pixel shader
+vertex shader
+TUNEL
+graphics port => x=w h=y o millieu apres x-- et w++ avec une image texturé:)
+blending
+coloring:)
+
+enlevé graphics.clear
+
+zoom :D
+
+OPTIMIZATION
+
+creé model de posiotn + size
+creé model strandard_filed et standard proprieties
+
+
+coliision partucule
