@@ -1,6 +1,10 @@
 Chimera2D, is an easy to use 2D Games Engine that allow games creation for Windows and XBOX360.
 Chimera2D is released by the end of the year 2007, and published for the first time in 2008.
 
+--------------------------
+
+Chimera2D, est un moteur de jeux 2D facile facile a utiliser, Chimera 2D permet de creer des jeux pour Windows et XBOX360.
+Chimera2D a eté realisé a la fin de l'année 2007, est publié pour la premiere fois en 2008.
 
 Requirements:
 -------------
@@ -47,3 +51,6 @@ Original sources download links :
 http://codes-sources.commentcamarche.net/source/46415-chimera-games-engine
 
 http://www.planetsourcecode.com/vb/scripts/ShowCode.asp?txtCodeId=6544&lngWId=10
+
+
+http://tazimehdi.com
